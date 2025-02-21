@@ -372,6 +372,7 @@ function scormremote_pluginfile($course, $cm, $context, $filearea, $args, $force
             'other' => [
               'description' => get_string('event_scormviewed', 'mod_scormremote', [
                 'clientname' => $client->get('name'),
+                'url' => $origin,
                 'fullname' => $fullname,
                 'courseid' => $course->id,
               ]),
